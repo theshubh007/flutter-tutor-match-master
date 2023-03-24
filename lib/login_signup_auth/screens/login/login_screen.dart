@@ -110,7 +110,7 @@ class _MobileLoginScreenState extends State<MobileLoginScreen> {
                         hintText: "Your email",
                         prefixIcon: Padding(
                           padding: EdgeInsets.all(defaultPadding),
-                          child: Icon(Icons.person),
+                          child: Icon(Icons.email),
                         ),
                       ),
                     ),

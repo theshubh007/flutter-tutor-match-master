@@ -149,7 +149,7 @@ class _Usertype_SelectionState extends State<Usertype_Selection> {
                             setState(() {
                               tutorselected = true;
                             });
-                            Get.toNamed("/shoplogin");
+                          
                           },
                           child: Container(
                               margin: const EdgeInsets.only(left: 7),
