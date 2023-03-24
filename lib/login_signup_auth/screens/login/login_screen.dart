@@ -5,7 +5,6 @@ import 'package:tutor_match_new/login_signup_auth/screens/StudentScreens/home_s.
 // import 'package:flutter_auth/responsive.dart';
 import '../../../responsive.dart';
 import '../../components/already_have_an_account_acheck.dart';
-import '../../components/background.dart';
 import '../../components/constants.dart';
 import '../signup/signup_screen.dart';
 import 'components/login_form.dart';
@@ -22,8 +21,8 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
-    return Background(
-      child: SingleChildScrollView(
+    return Scaffold(
+      body: SingleChildScrollView(
         child: Responsive(
           mobile: const MobileLoginScreen(),
           desktop: Row(
